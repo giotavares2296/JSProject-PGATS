@@ -7,7 +7,7 @@ Este projeto contém exemplos e exercícios de programação em JavaScript, dese
 ## 🚀 Tecnologias Utilizadas
 
 - [Node.js](https://nodejs.org/)
-- JavaScript (ES6+)
+- JavaScript 
 - [npm](https://www.npmjs.com/) — Gerenciador de pacotes
 - [Mocha](https://mochajs.org/) — Framework de testes
 
