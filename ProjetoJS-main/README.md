@@ -1,4 +1,4 @@
-# pgats-programacao-js
+# Projeto de Automação de Testes PGATS
 
 ## 📄 Descrição
 
