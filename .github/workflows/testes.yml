@@ -1,4 +1,4 @@
-name: CI · Executar Testes
+name: CI · Executar Testes Automatizados
 
 on:
   push:
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Verifica código
+      - name: Verificar código
         uses: actions/checkout@v3
 
       - name: Configura Node.js (v18)
@@ -19,8 +19,10 @@ jobs:
         with:
           node-version: '18'
       
-      - name: Instala dependências
+      - name: Instalar dependências
         run: npm install
 
-      - name: Executa testes
-        run: npm test
+      - name: Executar testes
+        run: 
+          cd trabalho
+          npm test
