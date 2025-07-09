@@ -11,13 +11,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Verificar código
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Configura Node.js (v18)
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
+      - name: Configura Node.js
+        uses: actions/setup-node@v4
       
       - name: Instalar dependências
         run: |
