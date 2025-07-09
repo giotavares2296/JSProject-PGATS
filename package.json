@@ -1,9 +1,10 @@
 {
   "type": "module",
   "devDependencies": {
-    "mocha": "^11.5.0"
+    "mocha": "^11.5.0",
+    "mocha-junit-reporter": "^2.2.1"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --reporter mocha-junit-reporter"
   }
 }

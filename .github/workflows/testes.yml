@@ -27,3 +27,9 @@ jobs:
         run: |
           cd trabalho
           npm test
+
+      - name: Upload relatório JUnit
+        uses: actions/upload-artifact@v3
+        with:
+            name: relatorio-junit
+            path: trabalho/test-results.xml
