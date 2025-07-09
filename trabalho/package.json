@@ -4,14 +4,13 @@
   "type": "module",
   "main": "trabalho.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha trabalho-final.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "mocha": "^11.5.0",
-    "mocha-junit-reporter": "^2.2.1"
+    "mocha": "^11.5.0"
   }
 }
