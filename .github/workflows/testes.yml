@@ -27,4 +27,4 @@ jobs:
       - name: Executar testes
         run: |
           cd trabalho
-          npx mocha trabalho-final.js --reporter spec --timeout 10000
+          npx mocha trabalho-final.js --reporter tap
